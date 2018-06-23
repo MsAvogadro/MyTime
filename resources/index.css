@@ -1,0 +1,60 @@
+nav{
+  display: inline-block;
+  position: fixed;
+  align-items: space-between;
+
+}
+
+.header{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+}
+
+.logo{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+}
+.bkg1{
+  background-image: url("images/img-story-main.png");
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.bkg2{
+  background-image: url("images/img-story-2.png");
+}
+.bkg3{
+  background-image: url("images/img-story-3.png");
+}
+.bkg4{
+  background-image: url("images/img-story-1.png");
+}
+.bkg5{
+  background-image: url("images/img-news-bite.png");
+}
+.main{
+  width: 100%;
+  display: flex;
+  flex-direction: row, wrap
+  border: 1px solid black;
+
+}
+
+#large {
+  width: 630px;
+  border: 1px solid black;
+}
+
+#medium {
+  width: 300px;
+  border: 1px solid black;
+}
+
+#small {
+  width: 240px;
+  border: 1px solid black;
+}
