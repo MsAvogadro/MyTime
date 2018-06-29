@@ -1,38 +1,48 @@
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+
+.logo span {
+  color: mediumaquamarine;
+}
+
+header nav {
+  padding-right: 40px;
+}
+
  nav li{
 display: inline-block;
 }
 
-.header{
+header{
   display: flex;
   width: 100%;
   position: fixed;
   background-color: white;
-  font-family: Verdana;
+  font-family: "Verdana", sans-serif;
   font-size: 14px;
   font-weight: bold;
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid black;
   z-index: 1;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  height: 80px;
 
 
-}
-
-div.logo{
-  width: 180px;
 
 }
 
-.logo li{
-  display: flex;
-  color: MediumAquamarine;
-  align-items: center;
-  justify-content: space-around;
-
-
-}
 
 #bkg1 h2{
    font-size: 40px;
@@ -90,7 +100,7 @@ div.logo{
 
 }
 
-p{
+.detail{
   font-family: Georgia;
   font-size: 17px;
   color: black;
@@ -108,7 +118,9 @@ h2{
   color: white;
 }
 
-
+.images{
+  justify-content: center;
+}
 /* #mid{
   display: flex;
   flex-direction: column;
@@ -156,7 +168,7 @@ h2{
   padding: 10px;
 }
 
-.news-bites{
+.news-bites h3{
   display: flex;
   font-size: 16px;
   font-weight: bold;
@@ -164,55 +176,43 @@ h2{
 
 }
 
-.items li{
-  display: flex;
+.news-bites .items{
+  display: block;
   background-color: WhiteSmoke;
   font-family: Verdana;
   font-size: 12px;
   color: DimGray;
+  padding: 10px 20px;
   border-bottom: 1px solid black;
   margin: 0px;
-  padding: 10px 10px;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
-.footer{
-  display:flex;
-  background-color: MediumAquamarine;
- margin: auto;
- font-family: Verdana;
- font-size: 12px;
- /* align-content: center; */
- justify-content: center;
- align-items: center;
- flex-direction: row;
- flex-wrap: wrap;
- padding-top: 70px;
- padding-bottom: 70px
-
-
-}
-
-.title{
+footer{
   display: flex;
-  font-family: Georgia;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 325px;
+  background-color: mediumaquamarine;
+  margin: auto;
+  font-family: "Verdana", sans-serif;
+  font-size: 12px;
+}
+
+
+footer .title{
+  display: inline-block;
+  font-family: Georgia, serif;
+  border-right: 2px solid white;
   font-size: 16px;
   font-weight: bold;
   color: white;
-  padding-left: 50px;
-  padding-right: 20px;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
+  padding-right: 25px;
 
 }
- .footer li{
-   margin-right: 10px;
- }
 
- .footer p{
-   display: flex;
-   font-size: 14px;
+ .footer nav{
+   display: inline-block;
+   padding-left: 25px;
  }
