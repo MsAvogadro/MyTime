@@ -4,11 +4,19 @@ display: inline-block;
 
 .header{
   display: flex;
+  width: 100%;
+  position: fixed;
+  background-color: white;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid black;
+  z-index: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
 
 }
 
@@ -29,6 +37,7 @@ div.logo{
 #bkg1 h2{
    font-size: 40px;
 
+
 }
 
 #bkg1{
@@ -36,6 +45,7 @@ div.logo{
   background-image: url("images/img-story-main.png");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 10px;
 }
 
 #bkg2{
@@ -69,7 +79,9 @@ div.logo{
 .flex-container{
   display: flex;
   justify-content: space-between;
-  align-content: space-around;
+  align-content: space-between;
+  padding-top: 90px;
+
 }
 
 p{
@@ -107,6 +119,7 @@ h2{
   width: 300px;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   order: 2;
   margin: 20px 20px;
 
@@ -116,6 +129,7 @@ h2{
   width: 240px;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   order: 3;
   margin: 0px;
   border: 2px 0px;
@@ -124,17 +138,17 @@ h2{
 
 .mid{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .left {
   flex: 1;
-  padding: 1rem;
+  padding: 10px;
 }
 
 .right {
   flex: 1;
-  padding: 1rem;
+  padding: 10px;
 }
 
 .news-bites{
@@ -153,6 +167,7 @@ h2{
   color: DimGray;
   border-bottom: 1px solid black;
   margin: 0px;
+  padding: 10 10;
   justify-content: space-around;
   flex-direction: column;
   align-items: flex-start;
